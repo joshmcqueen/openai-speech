@@ -1,0 +1,9 @@
+[project]
+name = "text-to-speech"
+version = "0.1.0"
+description = "A minimal OpenAI text-to-speech example"
+requires-python = ">=3.9"
+dependencies = [
+    "openai>=2.48.0",
+    "python-dotenv>=1.2.1",
+]
